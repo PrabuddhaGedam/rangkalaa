@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="hi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RangKalaa – Premium Art Supplies</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Noto+Sans+Devanagari:wght@300;400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ── NAV ── -->
+    <nav class="navbar">
+      <div class="nav-logo">🎨 RangKalaa</div>
+      <ul class="nav-links">
+        <li><a href="#categories">Collections</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#painters-choice">Painter's Choice</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+      </ul>
+      <button class="nav-cta">Cart (0)</button>
+    </nav>
+
+    <!-- ── HERO ── -->
+    <section class="hero">
+      <div class="hero-blob blob1"></div>
+      <div class="hero-blob blob2"></div>
+      <div class="hero-content">
+        <span class="hero-tag">✦ Artists ke liye, Artists ke dwara</span>
+        <h1 class="hero-headline">
+          Har Stroke Mein<br />
+          <em>Jaan Phunkein</em>—<br />
+          Premium Art Supplies<br />
+          Ab Aapke Haath Mein
+        </h1>
+        <p class="hero-sub">
+          Professional-grade brushes, vibrant oil colors, aur premium
+          canvas—sirf aapki kalaa ke liye curate kiya gaya.
+        </p>
+        <div class="hero-btns">
+          <a href="#categories" class="btn-primary">Collections Dekho</a>
+          <a href="#process" class="btn-ghost">Hamari Story</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span>12K+</span><small>Artists</small></div>
+          <div class="stat"><span>500+</span><small>Products</small></div>
+          <div class="stat"><span>4.9★</span><small>Rating</small></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-img-frame">
+          <img
+            src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80"
+            alt="Artist painting"
+          />
+          <div class="frame-accent"></div>
+        </div>
+        <div class="floating-tag tag1">🖌️ Sable Brushes</div>
+        <div class="floating-tag tag2">🎨 120 Colors</div>
+      </div>
+    </section>
+
+    <!-- ── CATEGORIES ── -->
+    <section class="categories" id="categories">
+      <div class="section-header">
+        <span class="sec-label">✦ Collections</span>
+        <h2>Apni Zaroorat Chunein</h2>
+        <p>Har category carefully curated hai professional artists ke liye</p>
+      </div>
+      <div class="cat-grid">
+        <div class="cat-card" data-cat="canvas">
+          <div class="cat-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=500&q=80"
+              alt="Canvas"
+            />
+            <div class="cat-overlay">
+              <span>36 Products</span>
+              <button class="cat-btn">Explore →</button>
+            </div>
+          </div>
+          <div class="cat-info">
+            <h3>🖼️ Canvas</h3>
+            <p>Linen & cotton blends, primed aur raw dono</p>
+            <span class="cat-price">₹299 se shuru</span>
+          </div>
+        </div>
+        <div class="cat-card featured" data-cat="oil">
+          <div class="cat-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=80"
+              alt="Oil Paints"
+            />
+            <div class="cat-overlay">
+              <span>120+ Shades</span>
+              <button class="cat-btn">Explore →</button>
+            </div>
+          </div>
+          <div class="cat-info">
+            <h3>🎨 Oil Paints</h3>
+            <p>Ultra-pigmented, slow-drying, museum-grade quality</p>
+            <span class="cat-price">₹199 se shuru</span>
+          </div>
+          <div class="featured-badge">Bestseller</div>
+        </div>
+        <div class="cat-card" data-cat="brushes">
+          <div class="cat-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&q=80"
+              alt="Brushes"
+            />
+            <div class="cat-overlay">
+              <span>80 Styles</span>
+              <button class="cat-btn">Explore →</button>
+            </div>
+          </div>
+          <div class="cat-info">
+            <h3>🖌️ Brushes</h3>
+            <p>Sable, hog, synthetic—har technique ke liye</p>
+            <span class="cat-price">₹149 se shuru</span>
+          </div>
+        </div>
+        <div class="cat-card" data-cat="watercolor">
+          <div class="cat-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=500&q=80"
+              alt="Watercolor"
+            />
+            <div class="cat-overlay">
+              <span>60 Colors</span>
+              <button class="cat-btn">Explore →</button>
+            </div>
+          </div>
+          <div class="cat-info">
+            <h3>💧 Watercolors</h3>
+            <p>Transparent, lightfast, artist-grade pans & tubes</p>
+            <span class="cat-price">₹249 se shuru</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FEATURED PRODUCT ── -->
+    <section class="featured-product">
+      <div class="fp-text">
+        <span class="sec-label">✦ Star Product</span>
+        <h2>Maestro Premium Oil Paint Set</h2>
+        <p class="fp-desc">
+          Ye sirf ek paint set nahi—ye aapki painting ka naya chapter hai. 48
+          ultra-vibrant shades jo canvas par zhankein nahi, balki jeevant ho
+          jaayein. Smooth buttery texture jo brush se canvas tak bina ruke behta
+          hai.
+        </p>
+        <ul class="fp-features">
+          <li>✦ Museum-grade pigments—fade-proof 100 saal tak</li>
+          <li>✦ Archival-quality linseed oil base</li>
+          <li>✦ 48 carefully curated shades</li>
+          <li>✦ Perfect mixing consistency</li>
+        </ul>
+        <div class="fp-price-row">
+          <span class="fp-price">₹2,499</span>
+          <span class="fp-mrp">₹3,999</span>
+          <span class="fp-discount">37% OFF</span>
+        </div>
+        <button class="btn-primary" onclick="addToCart()">
+          Cart Mein Daalo 🛒
+        </button>
+      </div>
+      <div class="fp-visual">
+        <div class="fp-img-container">
+          <img
+            src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600&q=80"
+            alt="Premium Oil Paint Set"
+          />
+          <div class="color-swatches">
+            <div
+              class="swatch"
+              style="background: #c0392b"
+              title="Cadmium Red"
+            ></div>
+            <div
+              class="swatch"
+              style="background: #2980b9"
+              title="Cobalt Blue"
+            ></div>
+            <div
+              class="swatch"
+              style="background: #f39c12"
+              title="Yellow Ochre"
+            ></div>
+            <div
+              class="swatch"
+              style="background: #27ae60"
+              title="Viridian Green"
+            ></div>
+            <div
+              class="swatch"
+              style="background: #8e44ad"
+              title="Dioxazine Purple"
+            ></div>
+            <div
+              class="swatch"
+              style="background: #2c3e50"
+              title="Ivory Black"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROCESS / BEHIND THE SCENES ── -->
+    <section class="process" id="process">
+      <div class="section-header light">
+        <span class="sec-label">✦ Visual Storytelling</span>
+        <h2>Behind the Brushstrokes</h2>
+        <p>Sirf product nahi—poora creative process dekhein</p>
+      </div>
+      <div class="process-grid">
+        <div class="process-card large">
+          <img
+            src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=700&q=80"
+            alt="Artist at work"
+          />
+          <div class="process-label">
+            <span class="p-tag">Behind the Scenes</span>
+            <h4>Priya ki Studio Mein Ek Din</h4>
+            <p>
+              Mumbai ki artist Priya Sharma apne process ke baare mein bataati
+              hain
+            </p>
+          </div>
+        </div>
+        <div class="process-card">
+          <img
+            src="https://images.unsplash.com/photo-1530021232320-687d8e3dba54?w=400&q=80"
+            alt="Color mixing"
+          />
+          <div class="process-label">
+            <span class="p-tag">Technique</span>
+            <h4>Color Mixing Secrets</h4>
+          </div>
+        </div>
+        <div class="process-card">
+          <img
+            src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400&q=80"
+            alt="Brush technique"
+          />
+          <div class="process-label">
+            <span class="p-tag">Process</span>
+            <h4>Brush Strokes Masterclass</h4>
+          </div>
+        </div>
+        <div class="process-card">
+          <img
+            src="https://images.unsplash.com/photo-1615184697985-c9bde1b07da7?w=400&q=80"
+            alt="Finished artwork"
+          />
+          <div class="process-label">
+            <span class="p-tag">Finished Work</span>
+            <h4>Canvas Se Masterpiece Tak</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PAINTER'S CHOICE ── -->
+    <section class="painters-choice" id="painters-choice">
+      <div class="section-header">
+        <span class="sec-label">✦ Painter's Choice</span>
+        <h2>Bade Kalakaar, Apni Pasandida Tools</h2>
+        <p>
+          India ke top artists apne favourite RangKalaa products recommend karte
+          hain
+        </p>
+      </div>
+      <div class="pc-carousel" id="pcCarousel">
+        <div class="pc-card active">
+          <div class="pc-artist-img">
+            <img
+              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&q=80"
+              alt="Artist 1"
+            />
+          </div>
+          <blockquote>
+            "Maestro Sable Brushes ne meri har painting mein ek nayi jaan daali
+            hai. Ye brushes itne responsive hain ki main apne imagination ko
+            sach mein canvas par utaar sakta hoon."
+          </blockquote>
+          <div class="pc-artist-info">
+            <strong>Ananya Krishnan</strong>
+            <span>Landscape Artist, Bangalore</span>
+          </div>
+          <div class="pc-recommended">
+            <span>Recommended:</span>
+            <strong>Series 7 Sable Brush Set</strong>
+          </div>
+        </div>
+        <div class="pc-card">
+          <div class="pc-artist-img">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80"
+              alt="Artist 2"
+            />
+          </div>
+          <blockquote>
+            "Cadmium Red aur Cobalt Blue ka jo combination RangKalaa deta hai,
+            woh main pichle 10 saalon se dhundh raha tha. Ab meri paintings
+            gallery mein bikti hain!"
+          </blockquote>
+          <div class="pc-artist-info">
+            <strong>Rajan Mehta</strong>
+            <span>Abstract Painter, Mumbai</span>
+          </div>
+          <div class="pc-recommended">
+            <span>Recommended:</span>
+            <strong>Maestro Oil Paint 48-Set</strong>
+          </div>
+        </div>
+        <div class="pc-card">
+          <div class="pc-artist-img">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=120&q=80"
+              alt="Artist 3"
+            />
+          </div>
+          <blockquote>
+            "Har canvas ka texture itna perfect hai ki watercolor perfectly
+            absorb hota hai. Beginners aur professionals dono ke liye ideal.
+            Main aur kuch use nahi karti."
+          </blockquote>
+          <div class="pc-artist-info">
+            <strong>Deepika Nair</strong>
+            <span>Watercolorist, Kochi</span>
+          </div>
+          <div class="pc-recommended">
+            <span>Recommended:</span>
+            <strong>Cold Press Watercolor Paper</strong>
+          </div>
+        </div>
+      </div>
+      <div class="pc-dots" id="pcDots">
+        <span class="dot active" onclick="goToSlide(0)"></span>
+        <span class="dot" onclick="goToSlide(1)"></span>
+        <span class="dot" onclick="goToSlide(2)"></span>
+      </div>
+    </section>
+
+    <!-- ── REVIEWS / SOCIAL PROOF ── -->
+    <section class="reviews" id="reviews">
+      <div class="section-header">
+        <span class="sec-label">✦ Community</span>
+        <h2>Apni Art Share Karein</h2>
+        <p>
+          Hamare products se bani apni art share karein aur
+          <strong>next purchase par 15% discount</strong> payein! Tag karein
+          <em>#RangKalaArt</em>
+        </p>
+      </div>
+      <div class="review-grid">
+        <div class="review-card">
+          <div class="r-header">
+            <img
+              src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=60&q=80"
+              alt="User"
+            />
+            <div>
+              <strong>Sunita Rao</strong>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+          <p>
+            "Oil paints ka texture ekdum professional grade hai. Pehli baar use
+            kiya toh feel ho gaya ki ye wahi cheez hai jo mujhe chahiye thi."
+          </p>
+          <div class="r-product">Maestro Oil Set</div>
+        </div>
+        <div class="review-card highlight">
+          <div class="r-header">
+            <img
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=60&q=80"
+              alt="User"
+            />
+            <div>
+              <strong>Arjun Patel</strong>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+          <p>
+            "Brushes ne mera game change kar diya. Sable bristles itne soft hain
+            aur phir bhi precise strokes dete hain. Worth every rupee!"
+          </p>
+          <div class="r-product">Series 7 Sable Brushes</div>
+        </div>
+        <div class="review-card">
+          <div class="r-header">
+            <img
+              src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=60&q=80"
+              alt="User"
+            />
+            <div>
+              <strong>Meera Gupta</strong>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+          <p>
+            "Canvas quality exceptional hai! Colors bilkul waise hi dikhte hain
+            jaise main chahti thi. 6 mahine se use kar rahi hoon, koi complaint
+            nahi."
+          </p>
+          <div class="r-product">Linen Canvas Board</div>
+        </div>
+      </div>
+      <div class="share-cta">
+        <div class="share-box">
+          <h3>🎨 Apni Art Share Karein!</h3>
+          <p>
+            RangKalaa products se banaya hua apna artwork Instagram par share
+            karein
+          </p>
+          <div class="share-steps">
+            <div class="step">① Artwork banao</div>
+            <div class="step">② #RangKalaArt tag karo</div>
+            <div class="step">③ 15% discount pao</div>
+          </div>
+          <button class="btn-primary" onclick="openShareModal()">
+            Abhi Share Karein 📸
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── EXPERIENCE BANNER ── -->
+    <section class="experience-banner">
+      <div class="exp-content">
+        <h2>Ye Sirf Dukaan Nahi—<em>Ek Experience Hai</em></h2>
+        <p>
+          RangKalaa mein aapko milte hain sirf professional-grade tools jinhein
+          experts ne test kiya hai, curate kiya hai, aur recommend kiya hai. Har
+          product ek artist ki zaroorat ko samajhta hai.
+        </p>
+        <div class="exp-pillars">
+          <div class="pillar">
+            <span class="pillar-icon">🔬</span>
+            <strong>Lab Tested</strong>
+            <small>Har product quality-certified</small>
+          </div>
+          <div class="pillar">
+            <span class="pillar-icon">🎨</span>
+            <strong>Artist Curated</strong>
+            <small>Sirf professionals recommend karte hain</small>
+          </div>
+          <div class="pillar">
+            <span class="pillar-icon">🚀</span>
+            <strong>Fast Delivery</strong>
+            <small>2-day delivery pan India</small>
+          </div>
+          <div class="pillar">
+            <span class="pillar-icon">💯</span>
+            <strong>100% Genuine</strong>
+            <small>Authentic brands guaranteed</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer class="footer">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">🎨 RangKalaa</div>
+          <p>
+            Artists ke liye, Artists ke dwara. Premium art supplies jo aapki
+            kalaa ko naya aasman dein.
+          </p>
+          <div class="social-links">
+            <a href="#">📷 Instagram</a>
+            <a href="#">▶️ YouTube</a>
+            <a href="#">📘 Facebook</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Collections</h4>
+          <a href="#">Oil Paints</a>
+          <a href="#">Brushes</a>
+          <a href="#">Canvas</a>
+          <a href="#">Watercolors</a>
+        </div>
+        <div class="footer-col">
+          <h4>Artists</h4>
+          <a href="#">Painter's Choice</a>
+          <a href="#">Tutorials</a>
+          <a href="#">Community</a>
+          <a href="#">Blog</a>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <a href="#">FAQ</a>
+          <a href="#">Shipping</a>
+          <a href="#">Returns</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 RangKalaa. Har Stroke Mein Jaan Phunkein. 🎨</p>
+      </div>
+    </footer>
+
+    <!-- ── MODAL ── -->
+    <div class="modal-overlay" id="shareModal">
+      <div class="modal">
+        <button class="modal-close" onclick="closeShareModal()">✕</button>
+        <h3>🎨 Apni Art Share Karein</h3>
+        <p>
+          Instagram par apni artwork post karein aur
+          <strong>#RangKalaArt</strong> tag karein
+        </p>
+        <div class="modal-steps">
+          <div class="m-step">① Apni painting ki photo lo</div>
+          <div class="m-step">② Instagram pe post karo</div>
+          <div class="m-step">
+            ③ Caption mein @RangKalaa aur #RangKalaArt likho
+          </div>
+          <div class="m-step">④ Screenshot hamare WhatsApp par bhejo</div>
+          <div class="m-step">✅ 15% discount code pao!</div>
+        </div>
+        <button class="btn-primary" onclick="closeShareModal()">
+          Got It! 👍
+        </button>
+      </div>
+    </div>
+
+    <!-- ── CART TOAST ── -->
+    <div class="toast" id="cartToast">✅ Product cart mein add ho gaya!</div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
